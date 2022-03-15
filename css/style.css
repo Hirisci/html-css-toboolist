@@ -17,14 +17,18 @@ header{
 }
 
 main{
-    background-color: white;
     width: 800px;
     margin: 50px auto;
-    padding: 10px;
-    border-radius: 3px;
 }
 
-.conteiner-button, section{
+.tasks-container,.container-button{
+    background-color: white;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 3px;    
+}
+
+section{
     margin: 20px;
 }
 
