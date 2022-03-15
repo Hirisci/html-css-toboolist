@@ -24,6 +24,15 @@ main{
     border-radius: 3px;
 }
 
+.conteiner-button, section{
+    margin: 20px;
+}
+
+/*TITOLI*/
+h2{
+    color: #444851;
+}
+
 /*HEADER*/
 header img{
     vertical-align: middle ;
@@ -51,4 +60,46 @@ button:disabled{
     border: 1px solid #47adf1;
     border-radius: 3px;
     opacity: 0.5;
+}
+
+/*LISTA*/
+ul{
+    list-style: none;
+    margin-top: 10px;
+}
+li{
+    margin: 5px  0px;
+}
+
+/*SPAN CHECK E CROSS*/
+.check{
+    color: #6bc4ae;
+    display: inline-block;
+    border-radius: 100%;
+    border: 1px solid #6bc4ae;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.croos{
+    color: #ea4237;
+    display: inline-block;
+    border-radius: 100%;
+    border: 1px solid #ea4237;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+/* TAG */
+.tag{ 
+    color: white;
+    border: 1px solid #47adf1;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 11px;
+    display: inline-block;
 }
